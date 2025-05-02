@@ -84,7 +84,7 @@ void displayMainMenu() {
   Serial.println("\n===== MAIN MENU =====");
   Serial.println("1. RFID Module");
   Serial.println("2. WiFi Tool");
-  Serial.println("3. BLE Spoofer");
+  Serial.println("3. BLE Spammer");
   Serial.println("0. Return to Main Menu (from any submenu)");
   Serial.println("h. Help/Menu");
   Serial.println("====================");
@@ -104,8 +104,8 @@ void displayRFIDMenu() {
 
 void displayBLEMenu() {
   Serial.println("\n===== BLE SPOOFER MENU =====");
-  Serial.println("1. Start BLE Spoofing");
-  Serial.println("2. Stop BLE Spoofing");
+  Serial.println("1. Start BLE Spammer");
+  Serial.println("2. Stop BLE Spammer");
   Serial.println("3. Set Delay (milliseconds)");
   Serial.println("0. Return to Main Menu");
   Serial.println("===========================");
